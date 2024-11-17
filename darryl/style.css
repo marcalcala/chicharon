@@ -1,0 +1,250 @@
+/* crimson red */
+#title{
+    background-color:#f5deb3;
+    color: black;
+}
+
+h1{
+    font-family:'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height:1.5;
+    padding-left: 2rem;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.navbar-brand{
+  font-family: 'Times New Roman';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.picture{
+  position: relative;
+  top: -9%;
+  height: 200px;
+  border-radius: 10px;
+  left: 9%;
+}
+
+.navbar{
+  padding-bottom: 4rem;
+  position:static;
+}
+
+.nav-item{
+  padding:0 15px;
+
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Features Section */
+#features{
+  padding-bottom: 4rem;
+}
+
+.container-fluid{
+  padding: 2rem;
+}
+
+.fas{
+  color: #8b4513;
+  padding: 15% 0 5% 0;
+}
+
+.fas:hover{
+  color: #cd853f;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+  text-align: center;
+  background-color:#f5deb3;
+  padding-bottom: 0.1rem;
+}
+
+.carousel-item{
+  text-align: center;
+  padding: 2% 10% 0% 10%;
+}
+
+.t-image{
+  width: 5%;
+  height: 5%;
+  border-radius: 50%;
+
+}
+
+.p-image{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+/* Press Section */
+
+.logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding-bottom: 3%;
+
+}
+
+.container-fluid{
+  padding: 4rem;
+  text-align: center;
+}
+
+h6{
+  font-weight: bold;
+}
+
+
+.card-header{
+  font-weight:bold;
+
+}
+
+.carddoc{
+  font-family: "Montserrat" , sans-serif;
+  text-align: center;
+
+}
+
+p{
+  font-size: 0.7rem;
+}
+
+.card1{
+  text-align: center;
+}
+
+.card{
+  margin-bottom: 3%;
+  padding: 0.5rem;
+}
+
+
+/* cta */
+#cta{
+    background-color:#f5deb3;
+    text-align: center;
+    padding: 2rem;
+    font-size: 18;
+}
+
+h4{
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+#footer{
+  text-align: center;
+  color: gray;
+  padding: 2rem;
+}
+
+
+/* Media Query */
+
+@media (max-width:1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .nav-item{
+    text-align: left;
+  }
+  .navbar-brand{
+    font-size: 1.5rem;
+  }
+
+h1{
+  font-size: 2rem;
+}
+
+  .picture{
+    padding-top: 2rem;
+    width: 250px;
+    height: 250px;
+  }
+
+  #feature{
+    text-align: center;
+  }
+
+  .container-fluid{
+    padding: 1rem;
+  }
+
+  h3{
+    font-size: 1.5rem;
+  }
+
+  p{
+    font-size: 0.9rem;
+  }
+
+  #testimonials{
+
+    padding-top: 2rem;
+    font-size: 2rem;
+
+  }
+
+  .t-image{
+    width: 10%;
+    height: 11%;
+    border-radius: 40%;
+    margin-bottom: 3%;
+  }
+
+  .carousel-item{
+    font-size: 1rem;
+  }
+
+  .logo{
+    width: 15%;
+    margin: 10px 15px 40px;
+  }
+
+  #pricing{
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+p{
+  font-size: 0.9rem;
+}
+
+h4{
+  font-size: 1.9rem;
+
+}
+
+}
